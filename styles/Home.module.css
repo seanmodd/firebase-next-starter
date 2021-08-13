@@ -1,12 +1,12 @@
 
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+  min-height: 75%;
+  padding-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+
 }
 
 .main {
@@ -20,9 +20,10 @@
 
 .footer {
   width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
+  height: 100%;
+  border-top: 1px solid #0554ff;
+  border-bottom: 4px solid #0554ff;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
